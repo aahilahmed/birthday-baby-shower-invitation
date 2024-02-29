@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday & Baby Shower Celebration</title>
+    <style>
+        /* Keyframes for background animation */
+        @keyframes slide {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.imgur.com/SaFUQlI_d.webp?maxwidth=760&fidelity=grand');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            animation: slide 30s linear infinite alternate;
+        }
+        .container {
+            max-width: 100%;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency here */
+            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
+            animation: pop-in 1s ease-out forwards;
+            opacity: 0;
+        }
+        @keyframes pop-in {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        h1, h2, p {
+            text-align: center;
+            color: #333;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: fade-in 1s ease-out 0.5s forwards;
+            opacity: 0;
+        }
+        h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: fade-in 1s ease-out 1s forwards;
+            opacity: 0;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            line-height: 1.6;
+            animation: slide-up 1s ease-out 1.5s forwards;
+            opacity: 0;
+        }
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes slide-up {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Invitation box */
+        .invitation {
+            border: 6px solid #0000ff; /* Change border color to blue */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 20px;
+            background-color: transparent;
+            animation: fade-in 1s ease-out 2s forwards;
+            opacity: 0;
+        }
+        .birthday-event-detail {
+            margin-bottom: 15px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            padding: 10px;
+        }
+        .birthday-event-detail strong {
+            color: #0000ff; /* Change text color to blue */
+        }
+
+        /* Message sections */
+        .message {
+            margin-top: 20px;
+            font-style: italic;
+            text-align: center;
+            font-size: 18px;
+            color: #333;
+            animation: fade-in 1s ease-out 2.5s forwards;
+            opacity: 0;
+        }
+        .birthday-message {
+            font-size: 16px;
+            font-style: italic;
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+            animation: fade-in 1s ease-out 3s forwards;
+            opacity: 0;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #0000ff; /* Change text color to blue */
+            animation: fade-in 1s ease-out 3.5s forwards;
+            opacity: 0;
+        }
+        .footer p {
+            margin-bottom: 10px;
+        }
+        .footer a {
+            color: #0000ff; /* Change text color to blue */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        /* Make images smaller */
+        .birthday-event-detail img {
+            max-width: 70%; /* Adjust the percentage as needed */
+            display: block; /* Ensures the image doesn't affect surrounding elements */
+            margin: auto; /* Centers the image horizontally */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="animate__animated animate__fadeIn">Birthday & Baby Shower Celebration</h1>
+        <p class="animate__animated animate__fadeIn">You are cordially invited to a birthday & baby shower celebration. Let's make it a day to remember!</p>
+        
+        <div class="invitation animate__animated animate__fadeIn">
+            <h2 class="animate__animated animate__fadeIn">Event Details</h2>
+            <div class="birthday-event-detail animate__animated animate__fadeIn">
+                <p><strong style="color: #0000ff;">Birthday Party For:</strong> Shanzay</p>
+                <p><strong style="color: #0000ff;">Baby Shower For:</strong> Fara</p>
+                <p><strong style="color: #0000ff;">When:</strong> March 2nd from 6 PM onwards</p>
+                <p><strong style="color: #0000ff;">Where:</strong>home</p> 
+                <img src="https://i.imgur.com/ot1YD10_d.webp?maxwidth=760&fidelity=grand">
+                <p class="birthday-event-detail animate__animated animate__fadeIn" style="color: #0000ff;"><strong>Activities:</strong> Cake Cutting, Baby Shower, Chatting, Dinner, Music, and Dancing (at your own interest)</p>
+               
+            </div>
+        </div>
+        
+        <p class="message animate__animated animate__fadeIn">Your presence will make this celebration truly special!</p>
+        
+        <p class="birthday-message animate__animated animate__fadeIn">Wish to have a day filled with love, laughter, joy, and unforgettable memories.</p>
+        
+        <div class="footer animate__animated animate__fadeIn">
+            <p>© 2024 Birthday & Baby Shower Celebration || Make sure to <a href="https://aahilahmedz.github.io/smart-channel-/my%20youtube%20channel%20website-yt.html" style="color: #0000ff;">subscribe to our channel</a>!!!</p>
+        </div>
+    </div>
+
+    <!-- Add animate.css library for animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</body>
+</html>
